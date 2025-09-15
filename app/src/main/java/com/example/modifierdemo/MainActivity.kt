@@ -40,9 +40,10 @@ fun DemoScreen(modifier: Modifier = Modifier) {
         .padding(all = 10.dp)
     Text(
         "Hello Compose",
-        modifier = mymodifier,
+        mymodifier,
         fontSize = 40.sp,
-        fontWeight = FontWeight.Bold)
+        fontWeight = FontWeight.Bold
+    )
 }
 @Preview(showBackground = true)
 @Composable
