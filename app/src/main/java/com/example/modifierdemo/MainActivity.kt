@@ -67,8 +67,8 @@ fun DemoScreen(modifier: Modifier = Modifier) {
         CustomImage(R.drawable.vacation,
         Modifier
             .padding(16.dp)
-            .width(270.dp)
-            .clip(shape = RoundedCornerShape(30.dp))
+            .size(width = 270.dp, height = 180.dp)
+            .clip(RoundedCornerShape(30.dp))
         )
     }
 }
